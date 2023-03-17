@@ -1,4 +1,25 @@
 # Kafka_Project
+
+- Requirements
+
+$ pip install kafka-python
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##This project completely about kafka
 - Step 1
 
