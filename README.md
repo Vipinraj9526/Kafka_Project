@@ -2,7 +2,7 @@
 
 - Requirements
 
-$ pip install kafka-python
+ pip install kafka-python
 
 
 
