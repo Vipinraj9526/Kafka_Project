@@ -10,7 +10,7 @@ to stop zookeeper
 .\bin\windows\zookeeper-server-stop.bat
 
 - step 2
-- 
+
 to start broker 
 .\bin\windows\kafka-server-start.bat .\config\server.properties
 
@@ -19,7 +19,7 @@ to stop broker
 .\bin\windows\kafka-server-stop.bat
 
 - step3
-- 
+
 to create topic 
 .\bin\windows\kafka-topics.bat --create --topic firstTopic --bootstrap-server localhost:9092 
 .\bin\windows\kafka-topics.bat --create --topic secondTopic --bootstrap-server localhost:9092 
@@ -41,12 +41,14 @@ to list all topics
 
 
 - step 4
+
 to start producer 
 .\bin\windows\kafka-console-producer.bat --topic firstTopic --bootstrap-server localhost:9092 
 .\bin\windows\kafka-console-producer.bat --topic secondTopic --bootstrap-server localhost:9092 
 
 
 -step 5
+
 to start consumer 
 
 .\bin\windows\kafka-console-consumer.bat --topic firstTopic --from-beginning --bootstrap-server localhost:9092 
