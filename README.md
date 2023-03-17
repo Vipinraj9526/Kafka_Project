@@ -47,7 +47,7 @@ to start producer
 .\bin\windows\kafka-console-producer.bat --topic secondTopic --bootstrap-server localhost:9092 
 
 
--step 5
+- step 5
 
 to start consumer 
 
